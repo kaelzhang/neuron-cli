@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "comfort": "^4.1.0",
+    "fs-expand": "^1.0.0",
     "loggie": "^0.1.15",
     "neuron-build": "^1.0.0",
     "neuron-package-root": "^1.0.0"
