@@ -30,6 +30,7 @@
     "chai": "*"
   },
   "dependencies": {
+    "async": "^1.5.0",
     "comfort": "^4.1.0",
     "fs-expand": "^1.0.0",
     "loggie": "^0.1.15",
