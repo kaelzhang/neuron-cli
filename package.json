@@ -24,5 +24,9 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "comfort": "^4.1.0",
+    "loggie": "^0.1.15"
   }
 }
