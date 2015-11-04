@@ -24,4 +24,6 @@ context.commander = commander;
 
 commander
 .context(context)
-.on('error', comfort.errorHandler());
+.on('error', comfort.errorHandler({
+  logger: logger
+}));
