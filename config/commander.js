@@ -27,3 +27,7 @@ commander
 .on('error', comfort.errorHandler({
   logger: logger
 }));
+
+process.on('exit', function () {
+  logger.info('');
+});
