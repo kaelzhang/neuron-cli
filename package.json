@@ -38,7 +38,7 @@
     "loggie": "^0.1.15",
     "neuron-build": "^1.0.0",
     "neuron.js": "^11.0.0",
-    "neuron-package-root": "^1.0.0",
+    "neuron-project-config": "^1.0.0",
     "open": "0.0.5",
     "serve-index": "^1.7.2"
   }
