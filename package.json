@@ -37,6 +37,7 @@
     "gaze": "^0.5.2",
     "loggie": "^0.1.15",
     "neuron-build": "^1.0.0",
+    "neuron-dev-server": "^1.0.0",
     "neuron.js": "^11.0.0",
     "neuron-project-config": "^1.0.0",
     "open": "0.0.5",
