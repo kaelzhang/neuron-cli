@@ -35,15 +35,17 @@
     "comfort": "^4.3.0",
     "express": "^4.13.3",
     "fs-expand": "^1.0.0",
+    "fs-extra": "^0.26.2",
     "gaze": "^0.5.2",
     "jsonfile": "^2.2.3",
     "loggie": "^0.1.15",
+    "lru-cache": "^3.2.0",
     "neuron-build": "^1.0.0",
     "neuron-dev-server": "^1.0.0",
     "neuron-project-config": "^1.0.0",
     "neuron.js": "^11.0.0",
-    "simple-lr": "^1.1.0",
     "open": "0.0.5",
-    "serve-index": "^1.7.2"
+    "serve-index": "^1.7.2",
+    "simple-lr": "^1.1.0"
   }
 }
