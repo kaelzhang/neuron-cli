@@ -5,22 +5,31 @@ var stylus_compiler = require('neuron-stylus-compiler');
 
 var config = module.exports = {
   src: 'static_modules',
-  dist: '.static_modules',
-  release: 'public/mod'
+  // dist: '.static_modules',
+  // release: 'public/mod'
 }
 
 
-// neuron builder
+// Default compilers
 config.compilers = [
   {
     test: /\.jade$/,
-    extname: '.js',
     compiler: jade_compiler
 
   }, {
     test: /\.styl$/,
-    extname: '.css',
     compiler: stylus_compiler
+  }
+];
+
+
+config.workspaces = [
+  // workspaces extends config
+  {
+    src:
+    dist:
+    release:
+    compilers:
   }
 ];
 

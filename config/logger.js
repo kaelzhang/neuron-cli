@@ -30,6 +30,6 @@ var fatal = logger.fatal;
 logger.fatal = function(msg, exit_code) {
   fatal.call(this, msg);
   if (typeof exit_code === 'number') {
-    // process.exit(exit_code);
+    process.exit(exit_code);
   }
 };

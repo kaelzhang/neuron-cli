@@ -6,19 +6,25 @@
 
 # neuron-cli
 
-<!-- description -->
+Command line tools for [neuron.js](https://www.npmjs.com/package/neuron.js).
+
+Before reading this document, it is better know [modules/1.1.1](http://wiki.commonjs.org/wiki/Modules/1.1.1) and [packages/1.0](http://wiki.commonjs.org/wiki/Packages/1.0)
 
 ## Install
 
 ```sh
-$ npm install neuron-cli --save
+$ npm i -g neuron-cli
 ```
 
-## Usage
+## Terminology
 
-```js
-var neuron_cli = require('neuron-cli');
-```
+#### Module
+
+A module is the minimun logic unit of javascript and each javascript file of commonjs or es6 module is a module
+
+#### Package
+
+A package could not only contain one or more modules, but also css files, templates, images and other resources.
 
 ## License
 
