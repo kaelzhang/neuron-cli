@@ -1,6 +1,6 @@
 {
   "name": "neuron-cli",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "The neuron command line tool",
   "bin": {
     "neuron": "bin/neuron.js"

@@ -5,8 +5,7 @@ var stylus_compiler = require('neuron-stylus-compiler');
 
 var config = module.exports = {
   src: 'static_modules',
-  // dist: '.static_modules',
-  // release: 'public/mod'
+  dist: '.static_modules'
 }
 
 

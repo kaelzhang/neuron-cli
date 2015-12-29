@@ -8,7 +8,7 @@
 
 Command line tools for [neuron.js](https://www.npmjs.com/package/neuron.js).
 
-Before reading this document, it is better know [modules/1.1.1](http://wiki.commonjs.org/wiki/Modules/1.1.1) and [packages/1.0](http://wiki.commonjs.org/wiki/Packages/1.0)
+Before reading this document, it is better to know [modules/1.1.1](http://wiki.commonjs.org/wiki/Modules/1.1.1) and [packages/1.0](http://wiki.commonjs.org/wiki/Packages/1.0)
 
 ## Install
 
@@ -25,6 +25,27 @@ A module is the minimun logic unit of javascript and each javascript file of com
 #### Package
 
 A package could not only contain one or more modules, but also css files, templates, images and other resources.
+
+## Project configurations
+
+All configurations are located at `neuron.config.js` at the root of your project.
+
+## Frequent Commands
+
+### Helpers
+
+```sh
+$ neuron # see basic help
+
+$ neuron build -h # see command help for `neuron build`, or you can use
+$ neuron help build
+```
+
+### Available Commands
+
+- `neuron build` build a package or packages.
+- `neuron server` start a neuron develop server. By default, neuron server will observe the changes of the resource files, and run the building automatically.
+- `neuron watch` watch a directory, and build when files change.
 
 ## License
 
