@@ -1,6 +1,6 @@
 {
   "name": "neuron-cli",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "The neuron command line tool",
   "bin": {
     "neuron": "bin/neuron.js"
@@ -55,7 +55,7 @@
     "lru-cache": "^3.2.0",
     "make-array": "^1.0.1",
     "mix2": "^1.0.1",
-    "neuron-build": "^2.0.0",
+    "neuron-build": "^2.9.0",
     "neuron-dev-server": "^2.0.0",
     "neuron-project-config": "^1.3.0",
     "neuron-reverse-router": "^1.0.0",
