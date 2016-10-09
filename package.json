@@ -1,6 +1,6 @@
 {
   "name": "neuron-cli",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "description": "The neuron command line tool",
   "bin": {
     "neuron": "bin/neuron.js"
@@ -41,18 +41,18 @@
     "run-mocha-cases": "^1.1.0"
   },
   "dependencies": {
-    "array-unique": "^0.2.1",
-    "async": "^1.5.0",
+    "array-unique": "^0.3.2",
+    "async": "^2.0.1",
     "body-parser": "^1.15.0",
     "comfort": "^5.0.0",
     "express": "^4.13.3",
     "fs-expand": "^1.1.0",
-    "fs-extra": "^0.26.2",
-    "gaze": "^0.5.2",
+    "fs-extra": "^0.30.0",
+    "gaze": "^1.1.2",
     "graceful-fs": "^4.1.2",
     "jsonfile": "^2.2.3",
     "loggie": "^0.1.15",
-    "lru-cache": "^3.2.0",
+    "lru-cache": "^4.0.1",
     "make-array": "^1.0.1",
     "mix2": "^1.0.1",
     "neuron-build": "^2.9.0",
